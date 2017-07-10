@@ -1,10 +1,16 @@
 {
   "name": "laravel-helper",
   "main": "./lib/laravel-helper",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Laravel Command Helper",
-  "keywords": [],
-  "repository": "https://github.com/atom/laravel-helper",
+  "keywords": [
+	  "Laravel",
+	  "Command",
+	  "Artisan",
+	  "Helper",
+	  "Laravel5"
+  ],
+  "repository": "https://github.com/73CN0109y-Packages/laravel-helper",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
