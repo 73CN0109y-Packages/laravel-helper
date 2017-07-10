@@ -1,0 +1,121 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.laravel-helper {
+    .btn {
+        color: #FFFFFF !important;
+        transition: background-color ease-in-out 0.2s;
+    }
+
+    .btn.btn-success {
+        background-color: #8BC34A;
+
+        &:hover {
+            background-color: #71A436;
+        }
+    }
+
+    .btn.btn-error {
+        background-color: #EF5350;
+
+        &:hover {
+            background-color: #EB2521;
+        }
+    }
+}
+
+.laravel-helper.command-input {
+    span.required {
+        color: #EF5350;
+        margin-left: 0.25em;
+        font-size: 1.2em;
+        line-height: 1em;
+    }
+
+    .radio-button {
+        display: inline-block;
+        margin-right: 1em;
+
+        input[type=radio] {
+            position: relative;
+            top: 0.25em;
+            margin-left: 0.5em;
+        }
+    }
+
+    .header-seperator {
+        opacity: 0.5;
+        margin: 0 0.5em;
+    }
+}
+
+.laravel-helper.command-output {
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+
+    .header {
+        flex: 0 0 auto;
+        position: relative;
+        padding: 1em;
+        border-bottom: solid 1px rgba(255, 255, 255, 0.05);
+
+        h2 {
+            margin: 0;
+
+            .command {
+                margin-left: 1em;
+                opacity: 0.5;
+                font-size: 0.75em;
+                line-height: 1em;
+            }
+        }
+
+        .close {
+            position: absolute;
+            right: 1em;
+            top: 0.5em;
+            color: #FFF;
+            font-weight: normal;
+        }
+
+        .dismiss-bar {
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            height: 2px;
+            background-color: #2196F3;
+            content: '';
+        }
+
+        .autoclose-timer {
+            position: absolute;
+            right: 5em;
+            top: 1.15em;
+            opacity: 0.5;
+        }
+    }
+
+    .content {
+        flex: 1 1 100%;
+        padding: 1em;
+        white-space: pre;
+        font-family: monospace;
+        overflow: scroll;
+        max-height: 500px;
+    }
+}
+
+.laravel-helper.panel-bottom.tool-panel {
+    opacity: 1;
+    max-height: 500px;
+    transition: opacity ease-in-out 1s, max-height ease-in-out 1s;
+
+    &.close-panel {
+        opacity: 0;
+        max-height: 0;
+    }
+}

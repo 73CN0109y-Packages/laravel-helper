@@ -1,0 +1,21 @@
+{
+  "name": "laravel-helper",
+  "main": "./lib/laravel-helper",
+  "version": "1.0.0",
+  "description": "Laravel Command Helper",
+  "keywords": [],
+  "repository": "https://github.com/atom/laravel-helper",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "atom-space-pen-views": "^2.2.0",
+    "etch": "^0.12.5",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}

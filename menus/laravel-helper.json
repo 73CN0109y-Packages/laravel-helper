@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle Laravel Helper",
+        "command": "laravel-helper:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Laravel Helper",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "laravel-helper:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
