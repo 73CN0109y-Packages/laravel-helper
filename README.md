@@ -1,5 +1,5 @@
 # Laravel Helper
 
-Interactive helper for Laravel commands
+Interactive helper for executing Laravel artisan commands
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+![Laravel Helper](https://user-images.githubusercontent.com/10562383/28160864-ce40116c-6804-11e7-8dc1-1e66b8017d5e.gif)

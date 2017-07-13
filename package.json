@@ -2,7 +2,7 @@
   "name": "laravel-helper",
   "main": "./lib/laravel-helper",
   "version": "0.1.1",
-  "description": "Laravel Command Helper",
+  "description": "Interactive helper for executing Laravel artisan commands",
   "keywords": [
     "Laravel",
     "Command",
