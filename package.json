@@ -1,7 +1,7 @@
 {
   "name": "laravel-helper",
   "main": "./lib/laravel-helper",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Interactive helper for executing Laravel 5 artisan commands",
   "keywords": [
     "Laravel",
