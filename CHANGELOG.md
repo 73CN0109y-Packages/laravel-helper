@@ -13,3 +13,6 @@
 
 ## 0.2.1 - Patch
 * Added support Laravel version to ReadMe and description
+
+## 0.2.5 - Patch
+* Fix for modal cancelling when it should be selecting an option
