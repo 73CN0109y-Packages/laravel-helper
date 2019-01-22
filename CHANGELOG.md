@@ -13,3 +13,10 @@
 
 ## 0.2.1 - Patch
 * Added support Laravel version to ReadMe and description
+
+## 0.2.5 - Patch
+* Fix for modal cancelling when it should be selecting an option
+
+## 0.3 - Custom Commands
+* Added the ability to specify your own commands (check the README for more information)
+* Couple of bug fixes and package updates

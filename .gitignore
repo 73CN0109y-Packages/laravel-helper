@@ -1,4 +1,6 @@
 .DS_Store
+.git
 npm-debug.log
 node_modules
-package-lock.json
+.jshintrc
+.idea
